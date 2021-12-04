@@ -19,11 +19,29 @@
     background-color: #000000;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    
 }
 
 #quienesSomos h3{
     color: #ffff;
     font-family: 'Raleway', sans-serif;
 }
+
+#lineaQuienes{
+    color: #6fbdd7;
+    height: 2px;
+    width: 75%;
+}
+
+#cajaIcono{
+    background-color:#6fbdd7;
+    height: 40px;
+}
+
+#icono {
+    color: #ffff;
+}
+
+
 
 
