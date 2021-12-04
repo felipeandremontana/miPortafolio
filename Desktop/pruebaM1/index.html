@@ -24,7 +24,7 @@
   <!--NavBar-->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg" alt="" width="30" height="24"
+      <a class="navbar-brand" href="index.html"><img src="assets/img/viajes.svg" alt="" width="30" height="24"
           class="d-inline-block align-text-top">
         <p class="d-inline-block align-text-top" id="txtBrand">Viajes Chile</p>
       </a>
@@ -35,23 +35,22 @@
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav ms-auto mb-2 mg-lg-0">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" aria-current="page" href="#header">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Quiénes Somos</a>
+            <a class="nav-link" href="#quienesSomos">Quiénes Somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Destacados</a>
+            <a class="nav-link" href="#destacados">Destacados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link">Contacto</a>
+            <a class="nav-link" href="#contacto">Contacto</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
   <!--Fin NavBar-->
-
   <!--Header-->
   <header id="header">
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -77,6 +76,7 @@
     </div>
   </header>
   <!--Fin Header-->
+  <!--Quienes Somos-->
   <section class="pt-5 row d-none d-sm-block mx-auto" id="quienesSomos">
     <div class="text-center">
       <h3 class="">¿Quiénes somos?</h3>
@@ -88,37 +88,122 @@
           <div class="container text-center" id="cajaIcono">
             <i class="fas fa-plane fa-2x pt-1" id="icono"></i>
           </div>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatem quasi ipsum similique eum ut
+          <p class="text-white pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatem quasi
+            ipsum similique eum ut
             quia tempora, iure molestiae labore, inventore veritatis in debitis. Laudantium quisquam quo doloremque iure
             culpa!</p>
         </article>
         <article class="col-4">
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatem quasi ipsum similique eum ut
+          <p class="text-white pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatem quasi
+            ipsum similique eum ut
             quia tempora, iure molestiae labore, inventore veritatis in debitis. Laudantium quisquam quo doloremque iure
             culpa!</p>
           <div class="container text-center" id="cajaIcono">
             <i class="fas fa-mountain fa-2x pt-1" id="icono"></i>
           </div>
-
         </article>
         <article class="col-4">
-          <div class="container text-center" id="cajaIcono">
+          <div class="container text-center " id="cajaIcono">
             <i class="fas fa-route fa-2x pt-1" id="icono"></i>
           </div>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatem quasi ipsum similique eum ut
+          <p class="text-white pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptatem quasi
+            ipsum similique eum ut
             quia tempora, iure molestiae labore, inventore veritatis in debitis. Laudantium quisquam quo doloremque iure
             culpa!</p>
-
         </article>
       </div>
     </div>
-      
-    
-
+  </section>
+  <!--Fin Quienes Somos-->
+  <!--Destacados-->
+  <section class="" id="destacados">
+    <div class="text-center">
+      <h3 class="text-white">Destacados</h3>
+      <hr class="opacity-100 mx-auto" id="lineaQuienes">
+    </div>
+    <div class="container pt-5" id="tarjetas">
+      <div class="row row-cols-1 row-cols-md-4">
+        <div class="col">
+          <div class="card w-auto">
+            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-auto">
+            <img src="assets/img/card2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card w-auto">
+            <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card w-auto">
+            <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fin sección destacados-->
+  <!--Contacto-->
+  <section class="row text-center" id="contacto">
+    <div class="row">
+      <div class="mb-5">
+        <h3 class="fw-bold text-white">Contacto</h3>
+        <hr class="opacity-100 mx-auto" id="lineaQuienes">
+      </div>
+      <div>
+        <p>¿Quieres conocer más de mi?</p>
+        <a target="_blank" href="https://5un1itpgzc2.typeform.com/to/Q357XoNN">
+          <button class="btn bg-secondary text-white" data-bs-toggle="modal"
+            data-bs-target="#exampleModal">Comenzar</button>
+        </a>
+      </div>
+    </div>
 
   </section>
 
 
+  <!--Modal-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Hola, gracias por contactarnos</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="button" class="btn btn-primary">Aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

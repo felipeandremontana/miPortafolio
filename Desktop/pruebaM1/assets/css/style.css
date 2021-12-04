@@ -42,6 +42,33 @@
     color: #ffff;
 }
 
+#destacados {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 150px;
+
+}
+
+#tarjetas img{
+    height: 200px;
+
+}
+
+#tarjetas .card{
+    background-color:#6fbdd7;
+}
+
+#tarjetas h5, p{
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+#contacto {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    padding-top: 150px;
+}
+
 
 
 
