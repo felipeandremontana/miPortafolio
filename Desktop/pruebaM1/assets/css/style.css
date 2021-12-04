@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+#txtBrand{
+    color:#ffff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400
+}
+
+.nav-link{
+    color: #ffff !important; 
+    font-family: 'Raleway', sans-serif;
+}
+
+#quienesSomos{
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#quienesSomos h3{
+    color: #ffff;
+    font-family: 'Raleway', sans-serif;
+}
+
+
